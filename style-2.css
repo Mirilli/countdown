@@ -1,0 +1,153 @@
+body {
+	animation: backgroundFade 50s ease-in-out infinite;
+  }
+  
+  @keyframes backgroundFade {
+	0% {
+	  background-color: #03ffff;
+	}
+	8.3% {
+	  background-color: #da58ed;
+	}
+	16.6% {
+	  background-color: #88fa4f;
+	}
+	25% {
+	  background-color: #da58ed;
+	}
+	33.3% {
+	  background-color: #03ffff;
+	}
+	41.6% {
+	  background-color: #feff00;
+	}
+	50% {
+	  background-color: #88fa4f;
+	}
+	58.3% {
+	  background-color: #feff00;
+	}
+	66.6% {
+	  background-color: #1e1e1c;
+	}
+	75% {
+	  background-color: #ffffff;
+	}
+	83.3% {
+	  background-color: #1e1e1c;
+	}
+	91.6% {
+	  background-color: #feff00;
+	}
+	100% {
+	  background-color: #03ffff;
+	}
+  }
+
+#countdown {
+        font-size: 60px;
+        color: #ee7752;
+        opacity: 0.8;
+        text-align: center;
+		top: 50%;
+        left: 50%;
+        width: 10em;
+        height: 18em;
+        margin-top: -0.6em;
+        margin-left: -5em;
+        position: fixed;
+}
+
+#countdown2 {
+	animation: fade 50s ease-in-out infinite;
+}
+
+@keyframes fade {
+	0% {
+	  color: #03ffff;
+	}
+	8.3% {
+	  color: #da58ed;
+	}
+	16.6% {
+	  color: #88fa4f;
+	}
+	25% {
+	  color: #da58ed;
+	}
+	33.3% {
+	  color: #03ffff;
+	}
+	41.6% {
+	  color: #feff00;
+	}
+	50% {
+	  color: #88fa4f;
+	}
+	58.3% {
+	  color: #feff00;
+	}
+	66.6% {
+	  color: #1e1e1c;
+	}
+	75% {
+	  color: #ffffff;
+	}
+	83.3% {
+	  color: #1e1e1c;
+	}
+	91.6% {
+	  color: #feff00;
+	}
+	100% {
+	  color: #03ffff;
+	}
+  }
+
+  #square {
+	animation: moove 10s ease-in-out infinite;
+	
+  }
+
+  @keyframes moove {
+	0% {
+	top: 50%;
+	left: 50%;
+	width: 2em;
+	height: 2em;
+	margin-top: 35em;
+	margin-left: 0em;
+	border: 3px solid rgb(255, 255, 255);
+	position: fixed;
+	}
+	25% {
+	top: 50%;
+	left: 50%;
+	width: 2em;
+	height: 2em;
+	margin-top: -35em;
+	margin-left: -2em;
+	border: 3px solid rgb(255, 255, 255);
+	position: fixed;
+	}
+	50% {
+		top: 50%;
+		left: 50%;
+		width: 2em;
+		height: 2em;
+		margin-top: 35em;
+		margin-left: -0em;
+		border: 3px solid rgb(255, 255, 255);
+		position: fixed;
+		}
+	100% {
+	top: 50%;
+	left: 50%;
+	width: 2em;
+	height: 2em;
+	margin-top: 35em;
+	margin-left: -1em;
+	border: 3px solid rgb(255, 255, 255);
+	position: fixed;
+	}
+  }
